@@ -1,0 +1,38 @@
+.followers-container{
+    width: 200px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    border-radius: 5px;
+    gap: 10px;
+
+}
+.follower{
+    width: 180px;
+    height: 35px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.picture{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}
+.name{
+    font-size: 12px;
+    font-weight: bold;
+}
+.view-more{
+    font-size: 12px;
+    color: var(--choosedcolor);
+    font-weight: bold;
+    cursor: pointer;
+}
